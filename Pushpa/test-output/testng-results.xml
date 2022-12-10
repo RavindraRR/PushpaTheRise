@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="196333" started-at="2022-12-10T12:20:36 IST" finished-at="2022-12-10T12:23:52 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="196333" started-at="2022-12-10T12:20:36 IST" finished-at="2022-12-10T12:23:52 IST">
+      <class name="com.pushpaTheRise.Pushpa.IMDB">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pushpaTheRise.Pushpa.IMDB@6ec8211c]" name="setup" is-config="true" duration-ms="81555" started-at="2022-12-10T12:20:36 IST" finished-at="2022-12-10T12:21:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="extractData()[pri:0, instance:com.pushpaTheRise.Pushpa.IMDB@6ec8211c]" name="extractData" duration-ms="13301" started-at="2022-12-10T12:23:24 IST" finished-at="2022-12-10T12:23:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractData -->
+        <test-method status="PASS" signature="Close_browser()[pri:0, instance:com.pushpaTheRise.Pushpa.IMDB@6ec8211c]" name="Close_browser" is-config="true" duration-ms="1944" started-at="2022-12-10T12:23:50 IST" finished-at="2022-12-10T12:23:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_browser -->
+      </class> <!-- com.pushpaTheRise.Pushpa.IMDB -->
+      <class name="com.pushpaTheRise.Pushpa.wikipedia">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pushpaTheRise.Pushpa.wikipedia@10dba097]" name="setup" is-config="true" duration-ms="85975" started-at="2022-12-10T12:21:58 IST" finished-at="2022-12-10T12:23:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ExtractData()[pri:0, instance:com.pushpaTheRise.Pushpa.wikipedia@10dba097]" name="ExtractData" duration-ms="12336" started-at="2022-12-10T12:23:37 IST" finished-at="2022-12-10T12:23:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtractData -->
+        <test-method status="PASS" signature="Close_browser()[pri:0, instance:com.pushpaTheRise.Pushpa.wikipedia@10dba097]" name="Close_browser" is-config="true" duration-ms="785" started-at="2022-12-10T12:23:52 IST" finished-at="2022-12-10T12:23:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_browser -->
+      </class> <!-- com.pushpaTheRise.Pushpa.wikipedia -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
